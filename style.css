@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* #FCEDFF
+#F2EDFF
+#FEF2F0
+#FFEFF3
+#39CDCC
+#EFFBFB
+#F2F2F5
+#FDF9EB
+#FDEBF0
+#EFFBF3
+#545f7d
+#213f7d
+#21407dae
+#39cd62
+#e9b200
+#e4033b */
+
+:root {
+  /* For Colors */
+  --softpink: #fcedff;
+  --lavenderdream: #f2edff;
+  --ivoryblush: #fef2f0;
+  --palerose: #ffeff3;
+  --turquoiseteal: #39cdcc;
+  --mistyaqua: #effbfb;
+  --silvermist: #f2f2f5;
+  --goldensand: #fdf9eb;
+  --peachcream: #fdebf0;
+  --softlilac: #effbf3;
+  --smokyblue: #545f7d;
+  --navyblue: #213f7d;
+  --darknavyblue: #21407da;
+  --emeraldgreen: #39cd62;
+  --goldenamber: #e9b200;
+  --crimsonred: #e4033b;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  color: var(--smokyblue);
+  line-height: 1;
+}

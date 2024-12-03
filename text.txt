@@ -1,0 +1,45 @@
+<ion-icon name="briefcase-outline"></ion-icon>
+<ion-icon name="home-outline"></ion-icon>
+<ion-icon name="people-circle-outline"></ion-icon>
+<ion-icon name="people-outline"></ion-icon>
+<ion-icon name="cash-outline"></ion-icon>
+<ion-icon name="reload-circle-outline"></ion-icon>
+<ion-icon name="card-outline"></ion-icon>
+<ion-icon name="wallet-outline"></ion-icon>
+<ion-icon name="thumbs-up-outline"></ion-icon>
+<ion-icon name="thumbs-down-outline"></ion-icon>
+<ion-icon name="server-outline"></ion-icon>
+<ion-icon name="document-outline"></ion-icon>
+<ion-icon name="aperture-outline"></ion-icon>
+<ion-icon name="id-card-outline"></ion-icon>
+<ion-icon name="newspaper-outline"></ion-icon>
+<ion-icon name="bar-chart-outline"></ion-icon>
+<ion-icon name="options-outline"></ion-icon>
+<ion-icon name="pricetags-outline"></ion-icon>
+<ion-icon name="git-branch-outline"></ion-icon>
+<ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+<ion-icon name="log-out-outline"></ion-icon>
+<ion-icon name="notifications-outline"></ion-icon>
+<ion-icon name="filter-outline"></ion-icon>
+<ion-icon name="ellipsis-vertical-outline"></ion-icon>
+<ion-icon name="caret-down-outline"></ion-icon>
+
+https://mighty.tools/mockmind-api/content/human/9.jpg
+https://ficboard-admin-dashboard.vercel.app/images/Ficboard-logo.png
+#FCEDFF
+#F2EDFF
+#FEF2F0
+#FFEFF3
+
+#39CDCC
+#EFFBFB
+#F2F2F5
+#FDF9EB
+#FDEBF0
+#EFFBF3
+#545f7d
+#213f7d
+#21407dae
+#39cd62
+#e9b200
+#e4033b
