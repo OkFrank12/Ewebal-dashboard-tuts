@@ -35,6 +35,9 @@
   --emeraldgreen: #39cd62;
   --goldenamber: #e9b200;
   --crimsonred: #e4033b;
+  --white: #fff;
+  --verylightgrey: #fefefe;
+  --stonegrey: #efeded;
 }
 
 *,
@@ -53,4 +56,55 @@ body {
   font-family: "Work Sans", sans-serif;
   color: var(--smokyblue);
   line-height: 1;
+}
+
+.dashboard {
+  background-color: var(--emeraldgreen);
+  min-height: 100vh;
+}
+
+.header {
+  background-color: var(--white);
+  height: 7rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.05);
+}
+
+.content-holder {
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--verylightgrey);
+  flex: 0 0 28.3rem;
+  overflow: auto;
+  position: sticky;
+  top: 7rem;
+  height: calc(100vh - 7rem);
+}
+
+.content-screen {
+  flex: 1;
+  background-color: var(--stonegrey);
+  padding: 4.8rem;
+}
+
+li {
+  font-size: 3rem;
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+  background-color: var(--silvermist);
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--turquoiseteal);
+  border-radius: 1rem;
 }
