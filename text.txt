@@ -23,6 +23,7 @@
 <ion-icon name="filter-outline"></ion-icon>
 <ion-icon name="ellipsis-vertical-outline"></ion-icon>
 <ion-icon name="caret-down-outline"></ion-icon>
+<ion-icon name="search-outline"></ion-icon>
 
 https://mighty.tools/mockmind-api/content/human/9.jpg
 https://ficboard-admin-dashboard.vercel.app/images/Ficboard-logo.png

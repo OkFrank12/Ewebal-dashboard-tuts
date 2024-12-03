@@ -4,13 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <title>Dashboard Web App</title>
   </head>
   <body>
     <main class="dashboard">
-      <header class="header">Header</header>
+      <header class="header">
+        <img
+          src="https://ficboard-admin-dashboard.vercel.app/images/Ficboard-logo.png"
+          alt="Dashboard logo"
+          class="logo"
+        />
+        <div class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search for anything"
+          />
+          <button class="search__icon-holder">
+            <ion-icon name="search-outline" class="search__icon"></ion-icon>
+          </button>
+        </div>
+        <div class="profile">
+          <a href="#" class="link-route">Docs</a>
+          <ion-icon name="notifications-outline"></ion-icon>
+          <img
+            src="https://mighty.tools/mockmind-api/content/human/9.jpg"
+            alt="Profile photo"
+            class="profile__photo"
+          />
+          <span class="profile__name">Amaka</span>
+          <ion-icon name="caret-down-outline"></ion-icon>
+        </div>
+      </header>
       <div class="content-holder">
-        <aside class="sidebar">Sidebar</aside>
+        <aside class="sidebar">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item item-interact">
+                <ion-icon name="briefcase-outline"></ion-icon
+                ><span class="">switch organization</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link"
+                  ><ion-icon name="home-outline"></ion-icon>
+                  <span>dashboard</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </aside>
         <section class="content-screen">Content</section>
       </div>
     </main>
