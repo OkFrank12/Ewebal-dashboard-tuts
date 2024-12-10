@@ -13,3 +13,5 @@ _This is italic text_
 - Unordered List 3
 
 This is a link to [Ficboard Dashboard](https://ficboard-admin-dashboard.vercel.app/)
+
+`const myName = 'Franklin';`
