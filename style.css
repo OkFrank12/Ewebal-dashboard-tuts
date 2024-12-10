@@ -43,6 +43,7 @@
   --white: #fff;
   --verylightgrey: #fefefe;
   --stonegrey: #fbfbfb;
+  --navybluenext: #d0d6e2;
 }
 
 *,
@@ -352,5 +353,134 @@ ion-icon[name="caret-down-outline"] {
 .summary__stats {
   font-size: 2.8rem;
   font-weight: 600;
+  color: var(--navyblue);
+}
+
+.table-container {
+  background-color: var(--white);
+  color: var(--smokyblue);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  font-size: 1.2rem;
+  border-collapse: collapse;
+}
+
+tbody {
+  font-size: 1.4rem;
+}
+
+tbody tr:not(:last-child) {
+  border-bottom: 1px solid rgba(33, 63, 125, 0.15);
+}
+
+th {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1.6rem;
+}
+
+td {
+  padding: 1.6rem;
+}
+
+.table-holder-th {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+ion-icon[name="filter-outline"],
+ion-icon[name="ellipsis-vertical-outline"] {
+  font-size: 1.6rem;
+}
+
+.table-holder-td {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status {
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+}
+
+.status--active {
+  color: var(--emeraldgreen);
+  background-color: rgba(57, 205, 98, 0.08);
+}
+
+.status--inactive {
+  background-color: var(--silvermist);
+  color: var(--smokyblue);
+}
+.status--pending {
+  color: var(--goldenamber);
+  background-color: var(--goldensand);
+}
+.status--blacklisted {
+  color: var(--crimsonred);
+  background-color: var(--peachcream);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.actions__select {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.4rem;
+}
+
+.actions__select select {
+  background-color: var(--navybluenext);
+  color: var(--navyblue);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.4rem;
+  font-weight: 500;
+}
+
+.actions__pagination {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.actions__pagination button {
+  background-color: var(--navybluenext);
+  color: var(--navyblue);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4rem;
+}
+
+.actions__pagination a:any-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: rgba(84, 95, 125, 0.5);
+}
+
+.actions__pagination .active:any-link {
   color: var(--navyblue);
 }
